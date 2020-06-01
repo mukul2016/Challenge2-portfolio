@@ -1,0 +1,140 @@
+:root {
+  --aquamarine: aquamarine;
+  --lightblue: lightblue;
+  --black: #272727;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+    }
+
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    }
+header a {
+    text-decoration: none;
+    color: #fce138;
+    }
+header nav {
+    margin: 7px 0;
+    }
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    }
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    }  
+
+/* Hero Style Start */
+.hero {
+  background-image: url("../images/photo-brick.jpeg");
+  /* background-size: cover; */
+  /* background-position: center; */
+  padding: 120px;
+  display: block;
+  border: 0px solid rgba(0,0,0, 0.2);
+  flex-wrap: wrap;
+}
+
+.hero h3 {
+    font-size: 28px;
+    font-weight: normal;
+    color: black ;
+    background-color: cadetblue;
+    border: 1px solid black;
+    float: right;
+  }
+
+
+.flex-container {
+  display: flex;
+  background-color: var(--lightblue);
+}
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid rgba(0, 0, 0, 0.2); */
+  /* border-radius: 5px; */
+  font-size: 35px;
+  height: 200px;
+  width: 600px;
+}
+
+.sidebar{
+  border: solid;
+  background-color: var(--lightblue);
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.about-me-text p {
+  float: right;
+  color: black;
+  /* background-color: var(--lightblue);
+  margin: auto;
+  width: 80%;
+  padding: 10px; */
+}
+
+footer {
+  padding: 20px 35px;
+  background-color: var(--lightblue);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer h3 {
+    font-size: 28px;
+    font-weight: normal;
+    color: black ;
+    background-color: cadetblue;
+    border: 1px solid black;
+    float: right;
+  }
+footer a {
+    text-decoration: none;
+    color: black;
+    }
+footer nav {
+    margin: 7px 0;
+    }
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    }
+footer nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    }  
+
